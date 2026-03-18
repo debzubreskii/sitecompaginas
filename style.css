@@ -1,0 +1,98 @@
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e76c19;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    background-color: #777676;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition:o.3s;
+    gap: 15px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.menu a:hover{
+    background-color: #d66e0d;
+    transform: scale (1.05);
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.5);
+}
+.menu a.ativo{
+    border: 2px solid wihte;
+    transform:scale(1.08)
+}
+.container{
+    max-width: 800px;
+    margin:auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding:30px;
+    border-radius:20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+h1{/*títulos*/
+    text-align:center;
+    margin-bottom: 20px;
+}
+p{
+    text-align:justify;
+}
+body{
+    margin: 0;
+    padding-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #f48643, #fb8e4b);
+}
+.sobre{ /*pagina sobre*/
+    text-align: center;
+}
+.conteudosobre{
+    display:flex;
+    align-items: center;
+    gap:30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.imagem img{
+    width: 220px;
+    height:220px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition:0.3s;
+    display:flex;
+    justify-content: center;
+}
+.imagem img:hover{
+    transform: scale(1.05);
+}
+
+/*página contato*/
+.contato{
+    text-align:center;
+    max-width: 700px;
+    margin: auto;
+}
+.contato img{
+      display: block;
+        margin: 20px auto;
+        height: 200px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+}
+.contato img:hover{
+    transform: scale(1.05);
+}
+.contato p{
+    font-size: 18px;
+    margin:10px 0;
+}
